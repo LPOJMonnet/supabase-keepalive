@@ -13,4 +13,4 @@ jobs:
       - name: Ping Supabase
         run: |
           curl "https://heyeggvdvyyofmmmivvh.supabase.co/rest/v1/students?select=id&limit=1" \
-          -H "apikey: VOTRE_CLE_SUPABASE"
+          -H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhleWVnZ3Zkdnl5b2ZtbW1pdnZoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkxOTY4NTQsImV4cCI6MjA5NDc3Mjg1NH0.F8Xr-i9mPn7TmGmxGpMty1iaoShUc7o7_K6b2NnUorY"
